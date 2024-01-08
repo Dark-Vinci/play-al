@@ -28,4 +28,8 @@ mod test {
         assert_eq!(caesar_cipher("rust", 13), "ehfg");
     }
 
+    #[test]
+    fn caesar_non_ascii() {
+        assert_eq!(caesar_cipher("rust🚌", 13), "ehfg🚌");
+    }
 }
