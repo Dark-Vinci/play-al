@@ -4,3 +4,4 @@ pub mod russian_peasant;
 pub mod rot_13;
 pub mod mean_median_mode;
 pub mod factors;
+pub mod pascal_triangle;
